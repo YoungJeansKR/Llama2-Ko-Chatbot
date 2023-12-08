@@ -63,7 +63,7 @@ def qa(user_input):
     return resp
 ```
 
-## Natural Language Generation
+## Natural Language Generation (Hongik Univ.)
 
 <p align="left">
   <img src="./images/1.png" width="100%" height="100%"/>
@@ -78,6 +78,8 @@ def qa(user_input):
 1. [Research Paper](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)
 2. [Llama 2 technical overview](https://ai.meta.com/resources/models-and-libraries/llama)
 3. [Open Innovation AI Research Community](https://ai.meta.com/llama/open-innovation-ai-research-community/)
+
+</br>
 
 # Llama 2
 
