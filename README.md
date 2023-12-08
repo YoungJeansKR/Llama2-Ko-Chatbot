@@ -25,6 +25,10 @@ This percentage is significantly lower than the percentage of Korean speakers (8
 
 ## Translate API
 
+We didn't fine-tune the Korean language and added translators to the inputs and outputs respectively. This performed much better than fine-tune the Korean language.
+
+Input: Papago
+
 ```
 def translate_to_en(text):
     client_id = ""
@@ -46,6 +50,8 @@ def translate_to_en(text):
         print("Error code:", res)
 ```
 
+Output: Google Translate
+
 ```
 def qa(user_input):
     user_input = str(user_input)
@@ -59,7 +65,18 @@ def qa(user_input):
 
 ## Natural Language Generation
 
+<p align="center">
+  <img src="./images/1.png" width="100%" height="100%"/>
+  <img src="./images/2.png" width="100%" height="100%"/>
+  <img src="./images/3.png" width="100%" height="100%"/>
+  <img src="./images/4.png" width="100%" height="100%"/>
+</p>
 
+## References
+
+1. [Research Paper](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/)
+2. [Llama 2 technical overview](https://ai.meta.com/resources/models-and-libraries/llama)
+3. [Open Innovation AI Research Community](https://ai.meta.com/llama/open-innovation-ai-research-community/)
 
 # Llama 2
 
