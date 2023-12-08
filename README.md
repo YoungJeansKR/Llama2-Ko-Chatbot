@@ -65,8 +65,11 @@ def qa(user_input):
 
 ## Natural Language Generation
 
-<img src="./images/1.png" width="100%" height="100%"/>
-<img src="./images/2.png" width="40%" height="40%"/>
+<p align="left">
+  <img src="./images/1.png" width="100%" height="100%"/>
+  <img src="./images/2.png" width="40%" height="40%"/>
+</p>
+
 </br>
 <img src="./images/4.png" width="45%" height="45%"/>
 
