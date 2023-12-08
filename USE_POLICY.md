@@ -1,5 +1,5 @@
 # Llama 2 Acceptable Use Policy
-d
+
 Meta is committed to promoting safe and fair use of its tools and features, including Llama 2. If you access or use Llama 2, you agree to this Acceptable Use Policy (“Policy”). The most recent copy of this policy can be found at [ai.meta.com/llama/use-policy](http://ai.meta.com/llama/use-policy).
 
 ## Prohibited Uses
