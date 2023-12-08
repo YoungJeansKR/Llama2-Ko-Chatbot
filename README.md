@@ -23,6 +23,44 @@ This percentage is significantly lower than the percentage of Korean speakers (8
   <img src="./images/overview.png" width="100%" height="100%"/>
 </p>
 
+## Translate API
+
+```
+def translate_to_en(text):
+    client_id = ""
+    client_secret = ""
+    data = {'text' :text,
+            'source' : 'ko',
+            'target' : 'en'}
+    url = "https://openapi.naver.com/v1/papago/n2mt"
+    header={"X-Naver-client-Id":client_id,
+           "X-Naver-client-Secret":client_secret}
+    response = requests.post(url, headers=header, data=data)
+    res = response.status_code
+    
+    if(res==200):
+        send_data = response.json()
+        trans_data = (send_data['message']['result']['translatedText'])
+        return trans_data
+    else:
+        print("Error code:", res)
+```
+
+```
+def qa(user_input):
+    user_input = str(user_input)
+    user_input = translate_to_en(user_input)
+    user_input = str(user_input)
+    resp = qa_chain({'question':user_input, 'chat_history': chat_history})
+    resp = str(resp['answer'])
+    resp = translator.translate(resp, dest='ko').text
+    return resp
+```
+
+## Natural Language Generation
+
+
+
 # Llama 2
 
 We are unlocking the power of large language models. Our latest version of Llama is now accessible to individuals, creators, researchers and businesses of all sizes so that they can experiment, innovate and scale their ideas responsibly. 
