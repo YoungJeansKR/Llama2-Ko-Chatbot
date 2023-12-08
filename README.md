@@ -17,6 +17,12 @@ From GPT to Bert to Llama, the amazing advances in large-scale language models h
 
 This percentage is significantly lower than the percentage of Korean speakers (81.7M) in the world's population (7.888 billion) (1.035%). This is based on a number of factors, including the isolated nature of Korean, an unprepared Korean corpus, and more, but the end result is that Korean speakers are severely limited in experiencing the richness of LLM.
 
+## Overview
+
+<p align="center">
+  <img src="./images/overview.png" width="100%" height="100%"/>
+</p>
+
 # Llama 2
 
 We are unlocking the power of large language models. Our latest version of Llama is now accessible to individuals, creators, researchers and businesses of all sizes so that they can experiment, innovate and scale their ideas responsibly. 
