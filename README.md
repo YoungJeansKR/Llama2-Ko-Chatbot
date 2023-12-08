@@ -1,3 +1,21 @@
+# Llama 2 Korean Chatbot
+
+영어 기반 LLM인 Llama2의 한국어 챗봇 오픈소스 프로젝트입니다.
+Open source language chat model based on Llama2 optimized for Korean.
+
+## Problem
+
+From GPT to Bert to Llama, the amazing advances in large-scale language models have captured everyone's attention. However, due to the nature of LLMs pre-training on large corpora, the vast majority of training data is spoken in English, with Korean representing a very small percentage.
+
+- Percentage of Korean in the Llama2 model's pre-training data: 0.06%.
+
+<p align="center" style="color:gray">
+  <img style="margin:20px 0 10px 0" src="https://github.com/psymon-dev/KoLlama2/assets/91517542/79b72fee-3517-4a7e-a0a5-fda4c8f2a7ca" alt="image" width=482 />
+  <br/>22p Table 10, Llama 2: Open Foundation and Fine-Tuned Chat Models, Hugo Touvron et al, July 18-2023.
+</p> 
+
+This percentage is significantly lower than the percentage of Korean speakers (81.7M) in the world's population (7.888 billion) (1.035%). This is based on a number of factors, including the isolated nature of Korean, an unprepared Korean corpus, and more, but the end result is that Korean speakers are severely limited in experiencing the richness of LLM.
+
 # Llama 2
 
 We are unlocking the power of large language models. Our latest version of Llama is now accessible to individuals, creators, researchers and businesses of all sizes so that they can experiment, innovate and scale their ideas responsibly. 
