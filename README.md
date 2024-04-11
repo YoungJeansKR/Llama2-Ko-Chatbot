@@ -27,7 +27,7 @@ This percentage is significantly lower than the percentage of Korean speakers (8
 
 We didn't fine-tune the Korean language and added translators to the inputs and outputs respectively. This performed much better than fine-tune the Korean language.
 
-You will receive a client_id and client_secret key, which you will need to enter into the code.
+You should receive a client_id and client_secret key, which you will need to enter into the code.
 
 Input: Papago
 
