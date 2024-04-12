@@ -2,7 +2,7 @@
 
 영어 기반 LLM인 Llama2의 한국어 챗봇 오픈소스 프로젝트입니다.
 </br></br>
-Open source language chat model based on Llama2 optimized for Korean.
+Llama 2 Korean Chatbot is an open source language chat model based on Llama2 optimized for Korean.
 
 ## Problem
 
